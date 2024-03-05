@@ -16,6 +16,15 @@
     --btn-bg-h2-c:#DF6951;
 }
 h1{
+    
+    font-size: 58px;
+    color: #ffffff;
+}
+h1 span{
+    text-decoration: url;
+
+}
+h2{
     font-family: "Volkhov", serif;
     font-size: 50px;
     color: #181E4B;
@@ -30,16 +39,19 @@ h4{
     background-image: url("../assets/bg1.png");
     background-size:cover;
     background-position: center;
+
 }
 .nav-car-item{
     margin: 0 auto;
     width: 1278px;
     padding-top: 67px;
+
     
 }
 .nav-bar{
     height: 67px;
     position:sticky;
+    display: block;
 }
 .manu-item{
 
@@ -68,6 +80,79 @@ text-align: right;
     color: #ffffff;                  ;
     cursor: pointer;
 }
+
+.car-item{
+    margin-top: 150px;
+}
+.place{
+    width: 840px;
+    background-color: rgba(255, 255, 255, 0.4);
+    backdrop-filter: blur(8px);
+    height: 102px;
+    border-radius: 10px;
+    color: #ffffff;
+    position: relative;
+
+}
+.place-content{
+    position: absolute;
+    margin-top: 25px;
+}
+.place-item{
+    float: left;
+    
+}
+.place-text{
+
+}
+.place-sel{
+    background:none;
+    border: none;
+    font-size: 18px;
+    margin: 0px 35px 0px 35px;
+    padding: 11px 10px 10px 10px;
+    color: #ffffff;
+}
+.place-btn{
+    margin-top: -5px ;  
+    margin-left: 30px;
+}
+.place-btn button{
+    padding: 18px 60px 18px 60px;
+}
+.booked-people{
+    margin: 25px;
+
+}
+.booked-img{
+    margin-left: -15px;
+}
+.booked-imgs span{
+    color: #ffffff;
+
+}
+
+/* Partner Section Start Here */
+
+.partner-section{
+    background: #F7F7F7;
+}
+.partner-content{
+    width:1278px;
+
+    margin: 0 auto;
+}
+.partner-content img{
+    
+    margin: 50px 39px 50px 39px;
+}
+
+
+
+
+
+
+
 
 /* Column grid */
 .row::after {
